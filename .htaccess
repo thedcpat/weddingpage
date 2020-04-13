@@ -12,3 +12,6 @@ RewriteCond %{HTTP:Accept-Language} ^en [NC]
 RewriteRule ^$ https://wedding.lehfam.ch/en/ [R=301,L]
 
 RewriteRule ^$ /de/ [R=301,L]
+
+# security section while development
+Require host familyhome.lehfam.ch
