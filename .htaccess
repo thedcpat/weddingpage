@@ -1,0 +1,14 @@
+RewriteEngine On
+
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://wedding.lehfam.ch/ [R=301,L]
+
+
+# language section
+RewriteCond %{HTTP:Accept-Langugage} ^de [NC]
+RewriteRule ^$ https://wedding.lehfam.ch/de/ [R=301,L]
+
+RewriteCond %{HTTP:Accept-Language} ^en [NC]
+RewriteRule ^$ https://wedding.lehfam.ch/en/ [R=301,L]
+
+RewriteRule ^$ /de/ [R=301,L]
