@@ -14,4 +14,6 @@ RewriteRule ^$ https://wedding.lehfam.ch/en/ [R=301,L]
 RewriteRule ^$ /de/ [R=301,L]
 
 # security section while development
-Require all granted
+<RequireAll>
+    Require all granted
+</RequireAll>
