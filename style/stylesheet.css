@@ -36,25 +36,31 @@
     font-weight: 400;
 }
 
+.center-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
 /* Frontpage 1 */
 #fp1{
     background: url('../media/images/general/leafs_berries.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
-#fp1-titlewrapper {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
- 
 #fp1-line {
     border-top: 1px solid whitesmoke;
 }
 
 /* Frontpage 2 */
 .thirds {
+    position: relative;
     height: calc(100% / 3);
     width: 100%;
     color: black;
@@ -67,6 +73,11 @@
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fp2-line {
+    width: 30%;
+    margin: 0 auto;
 }
 
 #fp2-third1 {
@@ -86,8 +97,6 @@
     background-position: center center;
     background-size: cover;
 }
-
-
 
 @media screen and (max-width: 1000px) {
     .big-heading {
