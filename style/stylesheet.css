@@ -58,14 +58,33 @@
     height: calc(100% / 3);
     width: 100%;
     color: black;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: whitesmoke;
+}
+
+.fp2-opacityWrapper {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#fp2-third1 {
+    background: url('../media/images/general/calendar.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 #fp2-third2 {
     background: url('../media/images/general/kirche.jpg') no-repeat;
     background-position: center center;
     background-size: cover;
-    /* background: url('../media/images/general/kirche.jpg') no-repeat center center fixed;
-    background-size: cover; */
+}
+
+#fp2-third3 {
+    background: url('../media/images/general/reberhaus.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 
