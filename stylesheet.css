@@ -6,22 +6,29 @@
     padding: 0;
 }
 
-header{
+#fp1{
     position: relative;
-    height: 50vh;
+    height: 100vh;
     width: auto;
     background: url('./media/images/general/leafs_berries.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
-.header-heading{
+#fp1-titlewrapper {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+ 
+.big-heading{
     color: whitesmoke;
     font-family: 'Meddon', cursive;
     font-size: 100px;
     font-weight: 400;
     text-align: center;
+} 
+
+hr {
+    border-top: 1px solid whitesmoke;
 }
