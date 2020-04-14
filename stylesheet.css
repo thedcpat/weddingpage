@@ -1,7 +1,27 @@
 /* Fonts Imports*/
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Mr+Dafoe&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Homemade+Apple&family=Meddon&family=Special+Elite&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
-.first-heading{
-    font-family: 'Mr Dafoe', cursive;
+header{
+    position: relative;
+    height: 50vh;
+    width: auto;
+    background: url('./media/images/general/leafs_berries.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header-heading{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-family: 'Meddon', cursive;
+    font-size: 100px;
+    font-weight: 400;
+    text-align: center;
 }
