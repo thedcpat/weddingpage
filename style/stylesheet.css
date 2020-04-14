@@ -57,7 +57,18 @@
 .thirds {
     height: calc(100% / 3);
     width: 100%;
+    color: black;
 }
+
+#fp2-third2 {
+    background: url('../media/images/general/kirche.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* background: url('../media/images/general/kirche.jpg') no-repeat center center fixed;
+    background-size: cover; */
+}
+
+
 
 
 
