@@ -97,6 +97,8 @@ a {
     background: url('../media/images/general/reberhaus.jpg') no-repeat;
     background-position: center center;
     background-size: cover;
+    border-bottom: none;
+    height: calc(100% / 3);
 }
 
 @media screen and (max-width: 1000px) {
