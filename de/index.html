@@ -65,10 +65,19 @@
       </div>
     </section>
     <section class=full-page id=fp3>
-      <h1 class=big-heading>Anmeldung</h1>
-      <form action="">
+      <h1 class=big-heading id="form-heading">Anmeldung</h1>
+      <form action="" class="fp3-form">
         <label for="name">Voller Name (Einzelperson, Familie, etc.)</label>
-        <input type="text" id=name>
+        <input type="text" name="name" id="name" class="fp3-inputs">
+        <label for="code">Anmeldecode</label>
+        <input type="number" name="code" id="code" class="fp3-inputs">
+        <label for="adults">Anzahl Erwachsene</label>
+        <input type="number" name="adults" id="adults" class="fp3-inputs">
+        <label for="kids">Anzahl Kinder</label>
+        <input type="number" name="kids" id="kids" class="fp3-inputs">
+        <label for="mail">Email</label>
+        <input type="email" name="mail" id="mail" class="fp3-inputs">
+        <input type="submit" value="Jetzt anmelden!" class="fp3-submit">
       </form>
     </section>
   </main>
