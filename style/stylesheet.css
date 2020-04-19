@@ -183,6 +183,10 @@ input[type=number]::-webkit-outer-spin-button {
         height: 5%;
     }
 
+    .fp3-submit {
+        height: 5%;
+    }
+
     #form-heading {
         font-size: 40px;
     }
