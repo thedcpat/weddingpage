@@ -61,7 +61,8 @@ a {
 /* Frontpage 2 */
 .thirds {
     position: relative;
-    height: calc(100% / 3);
+    --height-first: calc(100% / 3);
+    height: calc(var(--height-first) - 3px);
     width: 100%;
     color: black;
     border-bottom: solid;
