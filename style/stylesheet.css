@@ -143,6 +143,15 @@ a {
     #form-heading {
         font-size: 40px;
     }
+
+    #fp3 {
+        background: url('../media/images/general/einladung-cell.jpg') no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-bottom: none;
+        background-size: cover;
+    }
+
 }
 
 
