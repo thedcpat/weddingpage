@@ -101,6 +101,16 @@ a {
     height: calc(100% / 3);
 }
 
+/* Frontpage 3 */
+
+#fp3 {
+    background: url('../media/images/general/einladung.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-bottom: none;
+    background-size: cover;
+}
+
 @media screen and (max-width: 1000px) {
     .big-heading {
         font-size: 50px;
