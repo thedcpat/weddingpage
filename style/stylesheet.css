@@ -104,6 +104,24 @@ a {
 /* Frontpage 3 */
 
 #fp3 {
+    background: url('../media/images/general/pergament.jpg');
+}
+
+#fp3-textblock {
+    width: 70%;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#fp3-text-cursive {
+    font-style: italic;
+}
+
+/* Frontpage 4*/
+
+#fp4 {
     background: url('../media/images/general/einladung.jpg') no-repeat;
     background-position: center center;
     background-size: cover;
@@ -111,9 +129,35 @@ a {
     background-size: cover;
 }
 
-#fp3-pic{
+#fp4-pic{
     width: 30%;
     height: auto;
+}
+
+/* Frontpage 5*/
+
+#fp5 {
+    background: url('../media/images/general/together.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-bottom: none;
+    background-size: cover;
+}
+
+#fp5-header {
+    padding-top: 15%;
+}
+
+.fp5-opacityWrapper {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#fp5-easter{
+    font-size: 5px;
+    padding-top: 20%;
+    padding-bottom: 0;
 }
 
 @media screen and (max-width: 1000px) {
@@ -129,32 +173,28 @@ a {
         font-size: 20px;
     }
 
-    .fp3-form {
-        width: 80%;
-        font-size: 20px;
-        margin-top: 15%;
-    }
-
-    .fp3-inputs {
-        border-width: 1px;
-        height: 5%;
-    }
-
-    .fp3-submit {
-        height: 5%;
-        font-size: 70%;
-    }
-
     #form-heading {
         font-size: 40px;
     }
 
-    #fp3 {
+    #fp3-textblock {
+        font-size: 10px;
+    }
+
+    #fp3-heading {
+        font-size: 40px;
+    }
+
+    #fp4 {
         background: url('../media/images/general/einladung-cell.jpg') no-repeat;
         background-position: center center;
         background-size: cover;
         border-bottom: none;
         background-size: cover;
+    }
+
+    #fp5-easter{
+        padding-top: 60%;
     }
 
 }
