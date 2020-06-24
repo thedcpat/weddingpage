@@ -178,7 +178,8 @@ a {
     }
 
     #fp3-textblock {
-        font-size: 10px;
+        font-size: 15px;
+        width: 90%;
     }
 
     #fp3-heading {
@@ -188,9 +189,9 @@ a {
     #fp4 {
         background: url('../media/images/general/einladung-cell.jpg') no-repeat;
         background-position: center center;
-        background-size: cover;
-        border-bottom: none;
-        background-size: cover;
+        background-size: contain;
+        border-bottom: none;    
+        background-color: #f2f2f2;
     }
 
     #fp5-easter{
